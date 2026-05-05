@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-# Search for recipes matching ANY ingredient
+# Search for recipes matching ANY ingredient 
 
 def search_recipes_any_ingredients(ingredients):
     ingredient_list = [i.strip() for i in ingredients.split(',') if i.strip()]
